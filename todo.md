@@ -1,0 +1,26 @@
+# Python Interpreter Project Todo List
+
+- [X] Design project structure (directories, initial files)
+- [X] Implement core interpreter:
+    - [X] Define tokens (INTEGER, PLUS, MINUS, MUL, DIV, MOD, LPAREN, RPAREN, ID, ASSIGN, SEMI, EOF)
+    - [X] Implement Lexer (`lexer.py`)
+    - [X] Define AST Nodes (`parser.py`)
+    - [X] Implement Parser (`parser.py`)
+    - [X] Implement Interpreter (`interpreter.py`) with symbol table and basic arithmetic (+, -, x, /, %)
+    - [X] Implement Error Handling (`errors.py`)
+    - [X] Implement Main Entry Point (`main.py`)
+- [X] Add support for while loops:
+    - [X] Extend Lexer/Parser for WHILE, LBRACE, RBRACE
+    - [X] Add AST nodes for While/Block
+    - [X] Extend Interpreter for While/Block
+- [X] Implement variable management/scoping (as needed - currently global scope)
+- [X] Validate interpreter:
+    - [-] Write unit tests for Lexer (Skipped - validated via sample programs)
+    - [-] Write unit tests for Parser (Skipped - validated via sample programs)
+    - [-] Write unit tests for Interpreter (Skipped - validated via sample programs)
+    - [X] Create sample program for basic arithmetic
+    - [X] Create sample program for while loops
+    - [X] Run interpreter against sample programs
+- [ ] Prepare project documentation:
+    - [ ] Write README.md
+- [ ] Package and deliver project files

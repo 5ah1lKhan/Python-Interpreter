@@ -1,0 +1,24 @@
+# Sample program for basic arithmetic and assignments
+
+# Assign values
+a = 10;
+b = 5;
+
+# Perform calculations
+sum = a + b;      # sum = 15
+diff = a - b;     # diff = 5
+prod = a * b;     # prod = 50 (using * instead of x)
+quot = a / b;     # quot = 2 (integer division)
+rem = a % b;      # rem = 0
+
+# More complex expression
+complex_expr = (a + b) * 2 - (a / 5) + (10 % 3);
+# complex_expr = (10 + 5) * 2 - (10 / 5) + (10 % 3)
+# complex_expr = 15 * 2 - 2 + 1
+# complex_expr = 30 - 2 + 1
+# complex_expr = 28 + 1
+# complex_expr = 29
+
+# Reassign variable
+a = sum + 1; # a = 15 + 1 = 16
+

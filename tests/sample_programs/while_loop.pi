@@ -1,0 +1,30 @@
+# Sample program demonstrating while loop
+
+# Initialize counter and sum
+counter = 5;
+sum_val = 0;
+
+# While loop to sum numbers from 5 down to 1
+while (counter) { # Loop continues as long as counter is non-zero
+    sum_val = sum_val + counter;
+    counter = counter - 1;
+}
+
+# After the loop:
+# counter should be 0
+# sum_val should be 5 + 4 + 3 + 2 + 1 = 15
+
+# Another example: Factorial calculation (e.g., 4!)
+num = 4;
+factorial = 1;
+iterator = num;
+
+while (iterator) {
+    factorial = factorial * iterator;
+    iterator = iterator - 1;
+}
+
+# After the loop:
+# iterator should be 0
+# factorial should be 4 * 3 * 2 * 1 = 24
+
